@@ -41,7 +41,7 @@
     },
     {
       "id": "revoke.cash",
-      "url": "https://revoke.cash/",
+      "url":"https://revoke.cash/address/${accountAddress}?chainId=${chainId}",
       "name": "Revoke.cash",
       "iconUrl": "https://revoke.cash/assets/images/android-chrome-512x512.png",
       "description": "Manage and revoke your token allowances with Revoke.cash",
@@ -88,6 +88,28 @@
       "iconUrl": "https://www.bungee.exchange/./android-chrome-192x192.png",
       "description": "Bridge your assets through the best route!",
       "iconPath": "./android-chrome-192x192.png",
+      "networks": [
+        1,
+        10,
+        56,
+        100,
+        137,
+        250,
+        42161,
+        43114
+      ],
+      "forceInternal": true,
+      "applicationType": [
+        "web",
+        "mobile"
+      ]
+    },
+    {
+      "id": "Snapshot",
+      "url": "https://snapshot.org/",
+      "name": "Snapshot",
+      "iconUrl": "https://snapshot.org/icon.svg",
+      "description": "Where decisions get made",
       "networks": [
         1,
         10,
